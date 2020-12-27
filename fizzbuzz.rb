@@ -4,14 +4,14 @@
 
 
 def fizzbuzz(int)
-  bye3 = int % 3 == 0 
-  bye5 = int % 5 == 0 
+  by3 = int % 3 == 0 
+  by5 = int % 5 == 0 
   
- if bye3 && ! bye5  
+ if by3 && ! by5  
  "Fizz"
- elsif ! bye3 && bye5
+ elsif ! by3 && by5
  "Buzz"
- elsif bye3 && bye5
+ elsif by3 && by5
   "FizzBuzz"
   end
 end 
