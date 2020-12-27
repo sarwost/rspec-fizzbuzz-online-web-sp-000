@@ -11,7 +11,7 @@ def fizzbuzz(int)
  "Fizz"
  elsif bye5 && ! bye3 
  "Buzz"
- elsif int % 3 == 0 && int % 5 == 0  
+ elsif bye3 && bye5 == 0  
   "FizzBuzz"
   end
 end 
