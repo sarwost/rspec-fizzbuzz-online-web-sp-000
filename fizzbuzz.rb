@@ -9,7 +9,7 @@ def fizzbuzz(int)
   
  if bye3 && ! bye5  
  "Fizz"
- elsif bye5 && ! bye3 
+ elsif ! bye3 && bye5
  "Buzz"
  elsif bye3 && bye5
   "FizzBuzz"
